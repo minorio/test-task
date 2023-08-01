@@ -1,0 +1,42 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.pagination.pagination-lg .page-link {
+	padding: 10px;
+}
+.page-item {
+	list-style-type: none;
+	padding: 10px;
+	background-color: #fff;
+	margin-left: 10px;
+	&:hover {
+		background-color: #3d8035;
+	}
+}
+
+.page-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.indent-first {
+	margin-right: 24px;
+}
+.indent-last {
+	margin-left: 24px;
+}
+
+.disabled {
+	background-color: #00000041;
+	a {
+		color: #fff;
+	}
+}
+
+.hide {
+	display: none;
+}

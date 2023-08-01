@@ -1,0 +1,18 @@
+.movetop__btn {
+	display: inline-block;
+	/* background-color: #ffffff; */
+	cursor: pointer;
+	width: 70px;
+	height: 46px;
+	/* border-radius: 5px; */
+	margin: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	/* transition: background-color .3s; */
+	z-index: 1;
+	transition: all 0.3s;
+	/* transition: background-color .3s, opacity .5s, visibility .5s; */
+	/* opacity: 0;
+	visibility: hidden; */
+}
